@@ -12,24 +12,24 @@ microservice:
    main-service:
       endpoints:
          endpoint:
-            uri: http://MAIN-SERVICE/api/test
+            uri: http://MAIN-SERVICE/main/api/test
             
    user-service:
       endpoints:
          endpoint:
-            uri: http://USER-SERVICE/api/test
+            uri: http://USER-SERVICE/user/api/test
             
    guestbook-service:
       endpoints:
          endpoint:
-            uri: http://GUESTBOOK-SERVICE/api/test
+            uri: http://GUESTBOOK-SERVICE/guestbook/api/test
             
    board-service:
       endpoints:
          endpoint:
-            uri: http://BOARD-SERVICE/api/test
+            uri: http://BOARD-SERVICE/board/api/test
             
    admin-service:
       endpoints:
          endpoint:
-            uri: http://ADMIN-SERVICE/api/test
+            uri: http://ADMIN-SERVICE/admin/api/test
