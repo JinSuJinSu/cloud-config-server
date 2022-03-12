@@ -12,24 +12,24 @@ microservice:
    main-service:
       endpoints:
          endpoint:
-            uri: http://PAYMENT-SERVICE/api/text
+            uri: http://MAIN-SERVICE/api/text
             
    user-service:
       endpoints:
          endpoint:
-            uri: http://PAYMENT-SERVICE/api/text
+            uri: http://USER-SERVICE/api/text
             
    guestbook-service:
       endpoints:
          endpoint:
-            uri: http://PAYMENT-SERVICE/api/text
+            uri: http://GUESTBOOK-SERVICE/api/text
             
    board-service:
       endpoints:
          endpoint:
-            uri: http://PAYMENT-SERVICE/api/text
+            uri: http://BOARD-SERVICE/api/text
             
    admin-service:
       endpoints:
          endpoint:
-            uri: http://PAYMENT-SERVICE/api/text
+            uri: http://ADMIN-SERVICE/api/text
