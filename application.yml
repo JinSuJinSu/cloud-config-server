@@ -13,11 +13,15 @@ microservice:
       endpoints:
          endpoint:
             uri: http://MAIN-SERVICE/main/api/test
+            uri: http://MAIN-SERVICE/main/api/post
+            uri: http://MAIN-SERVICE/main/api/get/{userId}
             
    user-service:
       endpoints:
          endpoint:
             uri: http://USER-SERVICE/user/api/test
+            uri: http://USER-SERVICE/user/api/post
+            uri: http://MAIN-SERVICE/user/api/get/{userId}
             
    guestbook-service:
       endpoints:
